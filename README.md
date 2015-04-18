@@ -20,43 +20,64 @@
 
   评估标准：ROC（不是很懂）
 
-2. **Digit Recognizer**
-截止日：12月31日
-类型：监督学习－多元分类  数据量：中等  特征数量：中等
 
-用28 x 28的手写数字灰度图像  识别数字0-9
-n张训练图像
-2800张测试图像
-评估标准：准确率
-目前第一名： 1（已封顶）
+2. [**Digit Recognizer**](http://www.kaggle.com/c/digit-recognizer)
 
-Facial Keypoints Detection
-截止日：12月31日
-类型：监督学习－回归  数据量：中等  特征数量：中等
+  截止日：12月31日
+  
+  类型：监督学习－多元分类  数据量：中等  特征数量：中等
 
-对每个96x96的0-255灰度人脸图像 预测出指定的15个关键点坐标 这15个关键点有（左右眼中心点，鼻子尖，嘴角等等）。
-具体是：left_eye_center, right_eye_center, left_eye_inner_corner, left_eye_outer_corner, right_eye_inner_corner, right_eye_outer_corner, left_eyebrow_inner_end, left_eyebrow_outer_end, right_eyebrow_inner_end, right_eyebrow_outer_end, nose_tip, mouth_left_corner, mouth_right_corner, mouth_center_top_lip, mouth_center_bottom_lip
+  用28 x 28的手写数字灰度图像  识别数字0-9
+  
+  n张训练图像
 
-7049张训练图像
-1783张测试图像
+  2800张测试图像
+  
+  评估标准：准确率
+  
+  目前第一名： 1（已封顶）
 
-评估标准： Root Mean Squared Error
-目前为止LB第一名：1.74158
 
-Bag of Words Meets Bags of Popcorn
-截止日：6月30日
-类型：NLP 二元分类 数据量：中等  特征数量：NA
-根据IMDB里面对电影的文字评论，判别是好评还是差评。
+3. [**Facial Keypoints Detection**](https://www.kaggle.com/c/facial-keypoints-detection)
 
-评估标准：ROC（http://en.wikipedia.org/wiki/Receiver_operating_characteristic）
+  截止日：12月31日
 
-Titanic: Machine Learning from Disaster
-截止日：12月31日
-（没搞懂欢迎补充）
+  类型：监督学习－回归  数据量：中等  特征数量：中等
 
-Bike Sharing Demand
-截止日：5月29日
-类型：监督学习－回归  数据量：少  特征数量：少
-给出某月前19天的自行车租赁数据，预测这个月余下天数里每小时的租车数量
+  对每个96x96的0-255灰度人脸图像 预测出指定的15个关键点坐标 这15个关键点有（左右眼中心点，鼻子尖，嘴角等等）。
 
-评估标准：Root Mean Squared Logarithmic Error (RMSLE)
+  具体是：left_eye_center, right_eye_center, left_eye_inner_corner, left_eye_outer_corner, right_eye_inner_corner, right_eye_outer_corner, left_eyebrow_inner_end, left_eyebrow_outer_end, right_eyebrow_inner_end, right_eyebrow_outer_end, nose_tip, mouth_left_corner, mouth_right_corner, mouth_center_top_lip, mouth_center_bottom_lip
+
+  7049张训练图像
+
+  1783张测试图像
+
+  评估标准： Root Mean Squared Error
+
+  目前为止LB第一名：1.74158
+
+4. [**Bag of Words Meets Bags of Popcorn**](http://www.kaggle.com/c/word2vec-nlp-tutorial)
+
+  截止日：6月30日
+
+  类型：NLP 二元分类 数据量：中等  特征数量：NA
+
+  根据IMDB里面对电影的文字评论，判别是好评还是差评。
+
+  评估标准：ROC（http://en.wikipedia.org/wiki/Receiver_operating_characteristic）
+
+5. [**Titanic: Machine Learning from Disaster**](http://www.kaggle.com/c/titanic-gettingStarted)
+
+  截止日：12月31日
+
+  （没搞懂欢迎补充）
+
+6. [**Bike Sharing Demand**](https://www.kaggle.com/c/bike-sharing-demand)
+
+  截止日：5月29日
+  
+  类型：监督学习－回归  数据量：少  特征数量：少
+
+  给出某月前19天的自行车租赁数据，预测这个月余下天数里每小时的租车数量
+
+  评估标准：Root Mean Squared Logarithmic Error (RMSLE)
