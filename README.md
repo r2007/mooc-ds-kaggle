@@ -71,6 +71,8 @@
   截止日：12月31日
 
   （没搞懂欢迎补充）
+  
+  补充：据群主和群友告知，这个不太好玩。
 
 6. [**Bike Sharing Demand**](https://www.kaggle.com/c/bike-sharing-demand)
 
